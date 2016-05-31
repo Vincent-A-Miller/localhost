@@ -1,0 +1,1 @@
+Apr 26 08:52:03 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)

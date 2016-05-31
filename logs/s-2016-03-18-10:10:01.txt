@@ -1,0 +1,9 @@
+Mar 15 09:09:25 india su: pam_unix(su-l:session): session closed for user root
+Mar 15 09:09:41 india sudo:     vam : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/home/vam/bash/makelogs.sh
+Mar 15 09:15:14 india sudo:     vam : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/home/vam/bash/makelogs.sh
+Mar 15 09:15:50 india sudo:     vam : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/home/vam/bash/makelogs.sh
+Mar 15 09:15:57 india sudo:     vam : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/home/vam/bash/makelogs.sh
+Mar 15 09:16:02 india sudo:     vam : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/home/vam/bash/makelogs.sh
+Mar 15 10:30:34 india login: pam_unix(login:session): session closed for user vam
+Mar 18 09:46:38 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+Mar 18 09:46:46 india su: pam_unix(su-l:session): session closed for user root

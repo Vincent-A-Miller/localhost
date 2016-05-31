@@ -1,0 +1,1 @@
+::1 - - [21/Mar/2016:08:42:02 -0700] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) PHP/5.4.16 (internal dummy connection)"

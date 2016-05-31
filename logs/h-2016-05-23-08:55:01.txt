@@ -1,0 +1,2 @@
+::1 - - [23/May/2016:08:46:01 -0700] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16 (internal dummy connection)"
+::1 - - [23/May/2016:08:46:01 -0700] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips PHP/5.4.16 (internal dummy connection)"

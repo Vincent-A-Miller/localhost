@@ -1,0 +1,37 @@
+Mar 21 09:48:43 india su: pam_unix(su-l:session): session closed for user root
+Mar 21 10:29:32 india login: pam_unix(login:session): session closed for user vam
+Mar 22 08:22:44 india login: pam_unix(login:session): session closed for user vam
+Mar 23 08:17:42 india su: pam_unix(su-l:session): session closed for user root
+Mar 23 10:26:33 india su: pam_unix(su-l:session): session closed for user root
+Mar 24 08:08:13 india polkitd[1019]: Operator of unix-session:2 successfully authenticated as unix-user:vam to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:4199:73256 [gnome-control-center mouse] (owned by unix-user:vam)
+Mar 24 08:13:46 india polkitd[1019]: Operator of unix-session:2 successfully authenticated as unix-user:vam to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:4199:73256 [gnome-control-center mouse] (owned by unix-user:vam)
+Mar 24 08:15:00 india accounts-daemon: request by system-bus-name::1.83 [gnome-control-center mouse pid:4199 uid:1000]: create user 'india'
+Mar 24 08:15:00 india useradd[4884]: new group: name=india, GID=1001
+Mar 24 08:15:00 india useradd[4884]: new user: name=india, UID=1001, GID=1001, home=/home/india, shell=/bin/bash
+Mar 24 08:15:01 india accounts-daemon: request by system-bus-name::1.83 [gnome-control-center mouse pid:4199 uid:1000]: set password and hint of user 'india' (1001)
+Mar 24 08:15:01 india usermod[4897]: change user 'india' password
+Mar 24 08:16:12 india polkitd[1019]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 24 08:16:29 india polkitd[1019]: Registered Authentication Agent for unix-session:2 (system bus name :1.111 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 24 08:16:52 india polkitd[1019]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.111, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 24 08:16:55 india login: pam_unix(login:session): session closed for user vam
+Mar 24 08:17:00 india login: pam_unix(login:auth): check pass; user unknown
+Mar 24 08:17:00 india login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Mar 24 08:17:02 india login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Mar 24 08:17:09 india login: pam_unix(login:session): session opened for user india by LOGIN(uid=0)
+Mar 24 08:17:09 india login: LOGIN ON tty1 BY india
+Mar 24 08:17:15 india polkitd[1019]: Registered Authentication Agent for unix-session:12 (system bus name :1.156 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 24 08:17:36 india polkitd[1019]: Unregistered Authentication Agent for unix-session:12 (system bus name :1.156, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 24 08:17:39 india login: pam_unix(login:session): session closed for user india
+Mar 24 08:17:42 india login: pam_unix(login:session): session opened for user vam by LOGIN(uid=0)
+Mar 24 08:17:42 india login: LOGIN ON tty1 BY vam
+Mar 24 08:17:46 india polkitd[1019]: Registered Authentication Agent for unix-session:13 (system bus name :1.206 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 24 08:25:52 india polkitd[1019]: Unregistered Authentication Agent for unix-session:13 (system bus name :1.206, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 24 08:25:58 india login: pam_unix(login:session): session closed for user vam
+Mar 24 08:26:07 india login: pam_unix(login:session): session opened for user india by LOGIN(uid=0)
+Mar 24 08:26:07 india login: LOGIN ON tty1 BY india
+Mar 24 08:26:16 india polkitd[1019]: Registered Authentication Agent for unix-session:17 (system bus name :1.256 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 24 08:40:01 india polkitd[9816]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 24 08:40:01 india polkitd[9816]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 24 08:40:01 india polkitd[9816]: Finished loading, compiling and executing 6 rules
+Mar 24 08:40:01 india polkitd[9816]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 24 08:40:01 india polkitd[9816]: Registered Authentication Agent for unix-session:17 (system bus name :1.256 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)

@@ -1,0 +1,2 @@
+::1 - - [21/Mar/2016:08:42:02 -0700] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) PHP/5.4.16 (internal dummy connection)"
+127.0.0.1 - - [21/Mar/2016:09:28:29 -0700] "POST /drupal/install.php?profile=standard&locale=en HTTP/1.1" 200 10469 "http://localhost/drupal/install.php?profile=standard&locale=en" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36"

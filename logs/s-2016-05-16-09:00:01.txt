@@ -1,0 +1,2 @@
+May 16 08:48:39 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May 16 08:50:05 india polkitd[2231]: Operator of unix-session:1 FAILED to authenticate to gain authorization for action org.freedesktop.udisks2.filesystem-mount-system for system-bus-name::1.50 [/usr/libexec/gvfs-udisks2-volume-monitor] (owned by unix-user:vam)

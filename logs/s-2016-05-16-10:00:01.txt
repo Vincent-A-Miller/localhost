@@ -1,0 +1,8 @@
+May 16 08:48:39 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May 16 08:50:05 india polkitd[2231]: Operator of unix-session:1 FAILED to authenticate to gain authorization for action org.freedesktop.udisks2.filesystem-mount-system for system-bus-name::1.50 [/usr/libexec/gvfs-udisks2-volume-monitor] (owned by unix-user:vam)
+May 16 09:03:41 india su: pam_unix(su-l:session): session closed for user root
+May 16 09:20:01 india polkitd[10527]: Loading rules from directory /etc/polkit-1/rules.d
+May 16 09:20:01 india polkitd[10527]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 16 09:20:01 india polkitd[10527]: Finished loading, compiling and executing 6 rules
+May 16 09:20:01 india polkitd[10527]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 16 09:20:01 india polkitd[10527]: Registered Authentication Agent for unix-session:1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)

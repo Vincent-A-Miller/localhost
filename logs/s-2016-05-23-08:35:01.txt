@@ -1,0 +1,66 @@
+May 16 08:48:39 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May 16 08:50:05 india polkitd[2231]: Operator of unix-session:1 FAILED to authenticate to gain authorization for action org.freedesktop.udisks2.filesystem-mount-system for system-bus-name::1.50 [/usr/libexec/gvfs-udisks2-volume-monitor] (owned by unix-user:vam)
+May 16 09:03:41 india su: pam_unix(su-l:session): session closed for user root
+May 16 09:20:01 india polkitd[10527]: Loading rules from directory /etc/polkit-1/rules.d
+May 16 09:20:01 india polkitd[10527]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 16 09:20:01 india polkitd[10527]: Finished loading, compiling and executing 6 rules
+May 16 09:20:01 india polkitd[10527]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 16 09:20:01 india polkitd[10527]: Registered Authentication Agent for unix-session:1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 16 10:28:39 india login: pam_unix(login:session): session closed for user vam
+May 17 08:07:07 india polkitd[920]: Loading rules from directory /etc/polkit-1/rules.d
+May 17 08:07:07 india polkitd[920]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 17 08:07:07 india polkitd[920]: Finished loading, compiling and executing 6 rules
+May 17 08:07:07 india polkitd[920]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 17 08:07:21 india login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=vam
+May 17 08:07:22 india login: FAILED LOGIN 1 FROM tty1 FOR vam, Authentication failure
+May 17 08:07:27 india login: pam_unix(login:session): session opened for user vam by LOGIN(uid=0)
+May 17 08:07:27 india login: LOGIN ON tty1 BY vam
+May 17 08:08:00 india polkitd[920]: Registered Authentication Agent for unix-session:1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 17 08:08:23 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May 17 08:10:27 india polkitd[12042]: Loading rules from directory /etc/polkit-1/rules.d
+May 17 08:10:27 india polkitd[12042]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 17 08:10:27 india polkitd[12042]: Finished loading, compiling and executing 6 rules
+May 17 08:10:28 india polkitd[12042]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 17 08:10:28 india polkitd[12042]: Registered Authentication Agent for unix-session:1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 17 08:10:59 india useradd[12378]: failed adding user 'ntp', exit code: 9
+May 17 08:11:03 india useradd[12388]: failed adding user 'apache', exit code: 9
+May 17 08:11:21 india polkitd[12042]: Reloading rules
+May 17 08:11:21 india polkitd[12042]: Collecting garbage unconditionally...
+May 17 08:11:21 india polkitd[12042]: Loading rules from directory /etc/polkit-1/rules.d
+May 17 08:11:21 india polkitd[12042]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 17 08:11:21 india polkitd[12042]: Finished loading, compiling and executing 6 rules
+May 17 08:11:21 india polkitd[12042]: Reloading rules
+May 17 08:11:21 india polkitd[12042]: Collecting garbage unconditionally...
+May 17 08:11:21 india polkitd[12042]: Loading rules from directory /etc/polkit-1/rules.d
+May 17 08:11:21 india polkitd[12042]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 17 08:11:21 india polkitd[12042]: Finished loading, compiling and executing 6 rules
+May 17 08:11:38 india groupmod[12765]: group changed in /etc/group (group rpcuser/29)
+May 17 08:11:38 india groupmod[12776]: group changed in /etc/group (group nfsnobody/65534)
+May 17 08:12:20 india useradd[12979]: failed adding user 'mysql', exit code: 9
+May 17 08:14:00 india atd[14321]: pam_unix(atd:session): session opened for user root by (uid=0)
+May 17 09:38:21 india su: pam_unix(su-l:session): session closed for user root
+May 18 07:54:39 india polkitd[1132]: Loading rules from directory /etc/polkit-1/rules.d
+May 18 07:54:39 india polkitd[1132]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 18 07:54:39 india polkitd[1132]: Finished loading, compiling and executing 6 rules
+May 18 07:54:39 india polkitd[1132]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 18 07:54:52 india login: pam_unix(login:session): session opened for user vam by LOGIN(uid=0)
+May 18 07:54:52 india login: LOGIN ON tty1 BY vam
+May 18 07:54:57 india polkitd[1132]: Registered Authentication Agent for unix-session:1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 18 08:45:04 india polkitd[1132]: Operator of unix-session:1 FAILED to authenticate to gain authorization for action org.freedesktop.udisks2.filesystem-mount-system for system-bus-name::1.50 [/usr/libexec/gvfs-udisks2-volume-monitor] (owned by unix-user:vam)
+May 18 08:45:06 india polkitd[1132]: Operator of unix-session:1 FAILED to authenticate to gain authorization for action org.freedesktop.udisks2.filesystem-mount-system for system-bus-name::1.50 [/usr/libexec/gvfs-udisks2-volume-monitor] (owned by unix-user:vam)
+May 19 07:58:23 india polkitd[1061]: Loading rules from directory /etc/polkit-1/rules.d
+May 19 07:58:23 india polkitd[1061]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 19 07:58:23 india polkitd[1061]: Finished loading, compiling and executing 6 rules
+May 19 07:58:23 india polkitd[1061]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 19 07:58:37 india login: pam_unix(login:session): session opened for user vam by LOGIN(uid=0)
+May 19 07:58:39 india login: LOGIN ON tty1 BY vam
+May 19 07:58:49 india polkitd[1061]: Registered Authentication Agent for unix-session:1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 19 10:21:23 india login: pam_unix(login:session): session closed for user vam
+May 20 07:59:57 india polkitd[1130]: Loading rules from directory /etc/polkit-1/rules.d
+May 20 07:59:57 india polkitd[1130]: Loading rules from directory /usr/share/polkit-1/rules.d
+May 20 07:59:57 india polkitd[1130]: Finished loading, compiling and executing 6 rules
+May 20 07:59:57 india polkitd[1130]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+May 20 08:00:08 india login: pam_unix(login:session): session opened for user vam by LOGIN(uid=0)
+May 20 08:00:08 india login: LOGIN ON tty1 BY vam
+May 20 08:00:15 india polkitd[1130]: Registered Authentication Agent for unix-session:3 (system bus name :1.47 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 20 10:29:39 india login: pam_unix(login:session): session closed for user vam

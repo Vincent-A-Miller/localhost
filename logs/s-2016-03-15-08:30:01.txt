@@ -1,0 +1,20 @@
+Mar  8 08:19:14 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+Mar  8 08:19:29 india su: pam_unix(su-l:session): session closed for user root
+Mar  8 08:19:52 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+Mar  8 08:21:58 india su: pam_unix(su-l:session): session closed for user root
+Mar  8 08:22:07 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+Mar  8 08:23:03 india su: pam_unix(su-l:session): session closed for user root
+Mar  8 08:23:43 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+Mar  8 08:26:49 india su: pam_unix(su-l:session): session closed for user root
+Mar  8 10:29:50 india login: pam_systemd(login:session): Failed to release session: Interrupted system call
+Mar  8 10:29:50 india login: pam_unix(login:session): session closed for user vam
+Mar  9 10:04:03 india login: pam_systemd(login:session): Failed to release session: Interrupted system call
+Mar  9 10:04:03 india login: pam_unix(login:session): session closed for user vam
+Mar 11 10:24:01 india login: pam_unix(login:session): session closed for user vam
+Mar 14 08:45:30 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+Mar 14 09:08:36 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+Mar 14 10:07:42 india su: pam_unix(su-l:session): session closed for user root
+Mar 14 10:07:45 india su: pam_unix(su-l:session): session closed for user root
+Mar 14 10:29:54 india login: pam_unix(login:session): session closed for user vam
+Mar 15 08:28:21 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+Mar 15 08:29:00 india su: pam_unix(su-l:session): session closed for user root

@@ -1,0 +1,3 @@
+Mar 29 08:17:13 india polkitd[1168]: Unregistered Authentication Agent for unix-session:1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 29 10:20:52 india login: pam_systemd(login:session): Failed to release session: Interrupted system call
+Mar 29 10:20:52 india login: pam_unix(login:session): session closed for user vam

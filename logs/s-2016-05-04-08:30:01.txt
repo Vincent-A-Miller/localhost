@@ -1,0 +1,32 @@
+May  2 10:29:52 india login: pam_unix(login:session): session closed for user vam
+May  3 08:33:05 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May  3 08:33:39 india polkitd[1442]: Registered Authentication Agent for unix-process:5995:212247 (system bus name :1.102 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 08:33:39 india polkitd[1442]: Unregistered Authentication Agent for unix-process:5995:212247 (system bus name :1.102, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  3 08:33:41 india polkitd[1442]: Registered Authentication Agent for unix-process:6082:212511 (system bus name :1.103 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 08:33:42 india polkitd[1442]: Unregistered Authentication Agent for unix-process:6082:212511 (system bus name :1.103, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  3 08:34:01 india su: pam_unix(su-l:session): session closed for user root
+May  3 08:49:52 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May  3 08:50:35 india su: pam_unix(su-l:session): session closed for user root
+May  3 08:54:21 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May  3 08:54:29 india polkitd[1442]: Registered Authentication Agent for unix-process:8308:337243 (system bus name :1.135 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 08:54:29 india polkitd[1442]: Unregistered Authentication Agent for unix-process:8308:337243 (system bus name :1.135, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  3 08:54:31 india polkitd[1442]: Registered Authentication Agent for unix-process:8395:337447 (system bus name :1.136 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 08:54:32 india polkitd[1442]: Unregistered Authentication Agent for unix-process:8395:337447 (system bus name :1.136, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  3 08:55:58 india su: pam_unix(su-l:session): session closed for user root
+May  3 09:01:52 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May  3 09:01:55 india polkitd[1442]: Registered Authentication Agent for unix-process:9413:381859 (system bus name :1.154 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 09:01:55 india polkitd[1442]: Unregistered Authentication Agent for unix-process:9413:381859 (system bus name :1.154, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  3 09:01:59 india su: pam_unix(su-l:session): session closed for user root
+May  3 09:21:33 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May  3 09:21:38 india polkitd[1442]: Registered Authentication Agent for unix-process:10972:500183 (system bus name :1.175 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 09:21:38 india polkitd[1442]: Unregistered Authentication Agent for unix-process:10972:500183 (system bus name :1.175, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  3 09:21:41 india su: pam_unix(su-l:session): session closed for user root
+May  3 09:34:33 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May  3 09:38:23 india su: pam_unix(su-l:session): session closed for user root
+May  3 09:39:28 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May  3 09:41:06 india su: pam_unix(su-l:session): session closed for user root
+May  3 09:42:48 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)
+May  3 09:42:56 india polkitd[1442]: Registered Authentication Agent for unix-process:12817:627966 (system bus name :1.210 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May  3 09:42:57 india polkitd[1442]: Unregistered Authentication Agent for unix-process:12817:627966 (system bus name :1.210, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May  3 09:43:35 india su: pam_unix(su-l:session): session closed for user root
+May  4 08:11:27 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)

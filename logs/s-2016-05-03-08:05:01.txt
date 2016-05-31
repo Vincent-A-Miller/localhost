@@ -1,0 +1,1 @@
+May  2 10:29:52 india login: pam_unix(login:session): session closed for user vam

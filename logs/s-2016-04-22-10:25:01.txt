@@ -1,0 +1,6 @@
+Apr 18 10:29:43 india login: pam_systemd(login:session): Failed to release session: Interrupted system call
+Apr 18 10:29:43 india login: pam_unix(login:session): session closed for user vam
+Apr 19 10:27:06 india login: pam_unix(login:session): session closed for user vam
+Apr 20 10:29:50 india login: pam_systemd(login:session): Failed to release session: Interrupted system call
+Apr 20 10:29:50 india login: pam_unix(login:session): session closed for user vam
+Apr 22 10:15:34 india su: pam_unix(su-l:session): session opened for user root by vam(uid=1000)

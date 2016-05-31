@@ -1,0 +1,4 @@
+Mar 21 09:48:43 india su: pam_unix(su-l:session): session closed for user root
+Mar 21 10:29:32 india login: pam_unix(login:session): session closed for user vam
+Mar 22 08:22:44 india login: pam_unix(login:session): session closed for user vam
+Mar 23 08:17:42 india su: pam_unix(su-l:session): session closed for user root
